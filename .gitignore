@@ -179,3 +179,17 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+*
+
+!dataset_organizer/
+!dataset_organizer/**
+__pycache__/
+*.py[cod]
+
+!examples/
+!examples/**
+!README.md
+!requirements.txt
+!.gitignore
+!.gitattributes
